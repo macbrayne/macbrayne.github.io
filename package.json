@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.11.1",
+    "@nuxt/content": "^1.13.1",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.8.3",
