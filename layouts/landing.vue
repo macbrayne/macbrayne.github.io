@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <the-header />
     <v-main>
       <nuxt id="main-content" class="main-content" role="main" />
     </v-main>

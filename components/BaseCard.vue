@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h3 v-if="heading">{{ heading }}</h3>
-    <slot />
-  </div>
+  <v-responsive max-width="20rem">
+    <v-card outlined class="card">
+      <h3 v-if="heading">{{ heading }}</h3>
+      <slot />
+    </v-card>
+  </v-responsive>
 </template>
 
 <script>
@@ -12,3 +14,9 @@ export default {
   },
 }
 </script>
+
+<style>
+.card {
+  padding: 1em;
+}
+</style>

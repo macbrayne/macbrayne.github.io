@@ -1,8 +1,9 @@
 <template>
   <base-card :heading="heading">
-    <img v-if="imagePath" :src="imagePath" :alt="getAlt()" />
-    <slot></slot>
-    <a :href="link">{{ heading }}</a>
+    <a :href="link">
+      <v-img v-if="imagePath" :src="imagePath" :alt="getAlt()" />
+      <slot></slot>
+    </a>
   </base-card>
 </template>
 
