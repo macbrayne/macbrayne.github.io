@@ -4,7 +4,7 @@
     <section id="summary">
       <v-container>
         <v-row>
-          <v-col>
+          <v-col fluent>
             <base-card>
               <p>19 years old</p>
               <p>Studies: Physics at TU Braunschweig, Germany</p>
@@ -14,7 +14,7 @@
               </p>
             </base-card>
           </v-col>
-          <v-col>
+          <v-col fluent>
             <base-card>
               <p>Socials:</p>
               <ul>

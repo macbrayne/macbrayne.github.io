@@ -1,6 +1,6 @@
 ---
-id: 1
+id: 3
 heading: ipd_experiments
 link: https://github.com/macbrayne/ipd_experiments
 ---
-Experiments with the code provided by [@Axelrod-Python/Axelrod](https://github.com/Axelrod-Python/Axelrod)
+Experiments with the Axelrod python library
