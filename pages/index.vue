@@ -6,7 +6,7 @@
         <v-row>
           <v-col fluent>
             <base-card>
-              <p>19 years old</p>
+              <p>20 years old</p>
               <p>Studies: Physics at TU Braunschweig, Germany</p>
               <p>
                 Work: Student Assistant (IT System Administration) at the
