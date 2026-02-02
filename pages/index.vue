@@ -6,11 +6,19 @@
         <v-row>
           <v-col fluent>
             <base-card>
-              <p>20 years old</p>
-              <p>Studies: Physics at TU Braunschweig, Germany</p>
+              <p>22 years old</p>
+              <p>Studying Physics BSc. at TU Braunschweig, Germany</p>
               <p>
-                Work: Student Assistant (IT System Administration) at the
-                Institute of CMOS Design (TU Braunschweig)
+                Currently working as a tutor for Maths for Physicists 1 at
+                <a href="https://www.tu-braunschweig.de/en/imaph"
+                  >Institute of Mathematical Physics</a
+                >
+                TU Braunschweig
+              </p>
+              <p>
+                Active in the Fachgruppe Physik (student organization
+                representing physics students at TU Braunschweig) coordinating
+                among other things the mailing list and the website.
               </p>
             </base-card>
           </v-col>
@@ -19,16 +27,24 @@
               <p>Socials:</p>
               <ul>
                 <li>
-                  <a href="https://www.linkedin.com/in/florentin-schleuss/">
-                    LinkedIn
-                  </a>
+                  <a href="mailto:hi@florentin-schleuss.de">Email</a>
                 </li>
                 <li>
                   <a href="https://norden.social/@florentin/">Mastodon</a>
                 </li>
                 <li>
-                  <a href="mailto:hi@florentin-schleuss.de">Email</a>
+                  <a href="https://www.linkedin.com/in/florentin-schleuss/">
+                    LinkedIn
+                  </a>
                 </li>
+              </ul>
+            </base-card>
+            <base-card>
+              <p>Chaos:</p>
+              <ul>
+                <li>39C3</li>
+                <li>GPN24 (soon!)</li>
+                <li>...maybe more?</li>
               </ul>
             </base-card>
           </v-col>
@@ -36,35 +52,17 @@
       </v-container>
     </section>
     <section>
-      <h2 id="projects">Projects</h2>
-      <v-container>
-        <v-row>
-          <v-col v-for="project in projects" :key="project.heading" fluid>
-            <project-card
-              :heading="project.heading"
-              :link="project.link"
-              :image-path="project.imagePath"
-            >
-              <nuxt-content :document="project" />
-            </project-card>
-          </v-col>
-        </v-row>
-      </v-container>
-      <h2>Member in</h2>
-      <v-container>
-        <v-row>
-          <v-col
-            v-for="organisation in organisations"
-            :key="organisation.heading"
-          >
-            <project-card
-              :heading="organisation.heading"
-              :link="organisation.link"
-              :image-path="organisation.imagePath"
-            />
-          </v-col>
-        </v-row>
-      </v-container>
+      <h2 id="projects:">Projects</h2>
+      (A lot of these are unmaintained so your mileage may vary :P)
+      <div v-for="project in projects" :key="project.heading">
+        <project-card
+          :heading="project.heading"
+          :link="project.link"
+          :image-path="project.imagePath"
+        >
+          <nuxt-content :document="project" />
+        </project-card>
+      </div>
     </section>
   </main>
 </template>
@@ -76,13 +74,9 @@ export default {
     const projects = await $content('projects', params.slug)
       .sortBy('id')
       .fetch()
-    const organisations = await $content('organisations', params.slug)
-      .sortBy('id')
-      .fetch()
 
     return {
       projects,
-      organisations,
     }
   },
 }

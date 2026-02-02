@@ -1,7 +1,9 @@
 <template>
-  <v-responsive max-width="20rem">
+  <v-responsive>
     <v-card outlined class="card">
-      <h3 v-if="heading">{{ heading }}</h3>
+      <h3 v-if="heading">
+        <a :href="link">{{ heading }}</a>
+      </h3>
       <slot />
     </v-card>
   </v-responsive>
@@ -11,6 +13,7 @@
 export default {
   props: {
     heading: { type: String, default: '' },
+    link: { type: String, default: '' },
   },
 }
 </script>

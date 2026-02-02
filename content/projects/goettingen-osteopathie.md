@@ -1,7 +1,6 @@
 ---
-id: 0
+id: 100
 heading: goettingen-osteopathie.de
 link: https://goettingen-osteopathie.de
-imagePath: "/img/goettingen-osteopathie.png"
 ---
-Website redesign for the osteopathy practice Beate Schleuß
+Website redesign for the physiotherapy/osteopathy practice Beate Schleuß
