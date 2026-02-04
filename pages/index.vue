@@ -71,6 +71,24 @@
         </project-card>
       </div>
     </section>
+
+    <section class="i8831">
+      <a href="/">
+        <img
+          src="~/assets/88x31/florentin.png"
+          alt="Florentin Schleuß's website"
+        />
+      </a>
+      <a href="https://ncamgnrvngu.eu/"
+        ><img src="~/assets/88x31/ncamgnrvngu.png" alt="Ncam Gnrvngu's website"
+      /></a>
+      <a href="https://marekkrug.de/"
+        ><img src="~/assets/88x31/murmeldin.png" alt="Marek Krug's website"
+      /></a>
+      <a href="https://chaos.social/@feix3349"
+        ><img src="~/assets/88x31/feix.png" alt="Feix' mastodon" />
+      </a>
+    </section>
   </main>
 </template>
 
@@ -88,3 +106,19 @@ export default {
   },
 }
 </script>
+
+<style>
+.i8831 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.i8831 img {
+  border: none;
+  image-rendering: pixelated;
+}
+</style>
