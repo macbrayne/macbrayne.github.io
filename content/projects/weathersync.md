@@ -9,4 +9,4 @@ As I found it more fun to play with weather APIs than to actually implement game
 (not affecting the world) to the real-world weather of any location using the [Open-Meteo](https://open-meteo.com/) API.
 It also includes an optional geo-ip lookup feature to automatically set the weather based on your IP address location.
 
-Available for 1.20.
+Available for 1.20. [Modrinth](https://modrinth.com/mod/weathersync)

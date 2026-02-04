@@ -4,4 +4,4 @@ heading: ipd_experiments
 link: https://github.com/macbrayne/ipd_experiments
 status: 🔴
 ---
-Experiments with the Axelrod python library
+Experiments with the Axelrod python library. (For my high school seminar paper)

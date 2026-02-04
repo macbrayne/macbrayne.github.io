@@ -8,4 +8,4 @@ A Minecraft mod developed for the [Modfest Singularity](https://modfest.net/sing
 It adds adds a new recovery compass craftable using a normal one and some redstone.
 This new recovery compass allows you to retrace your steps across dimension changes.
 
-Available for Quilt 1.19.2, Fabric 1.19.3-1.20.
+Available for Quilt 1.19.2, Fabric 1.19.3-1.20. [Modrinth](https://modrinth.com/mod/recovery-plus)

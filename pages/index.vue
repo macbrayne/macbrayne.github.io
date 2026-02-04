@@ -6,14 +6,13 @@
         <v-row>
           <v-col fluent>
             <base-card>
-              <p>22 years old</p>
+              <p>22 years old, he/him</p>
               <p>Studying Physics BSc. at TU Braunschweig, Germany</p>
               <p>
                 Currently working as a tutor for Maths for Physicists 1 at
                 <a href="https://www.tu-braunschweig.de/en/imaph"
                   >Institute of Mathematical Physics</a
-                >
-                TU Braunschweig
+                >, TU Braunschweig.
               </p>
               <p>
                 Active in the Fachgruppe Physik (student organization
