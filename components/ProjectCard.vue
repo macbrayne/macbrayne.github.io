@@ -1,5 +1,5 @@
 <template>
-  <base-card :heading="heading" :link="link">
+  <base-card :heading="heading" :link="link" :status="status">
     <slot></slot>
   </base-card>
 </template>
@@ -9,7 +9,7 @@ export default {
   props: {
     heading: { type: String, default: '' },
     link: { type: String, default: '' },
-    description: { type: String, default: '' },
+    status: { type: String, default: '' },
   },
 }
 </script>

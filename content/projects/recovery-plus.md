@@ -2,6 +2,7 @@
 id: 7
 heading: Recovery+
 link: https://github.com/macbrayne/recovery-plus
+status: 🔴
 ---
 A Minecraft mod developed for the [Modfest Singularity](https://modfest.net/singularity) event.
 It adds adds a new recovery compass craftable using a normal one and some redstone.

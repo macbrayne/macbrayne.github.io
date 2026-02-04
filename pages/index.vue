@@ -33,6 +33,14 @@
                   <a href="https://norden.social/@florentin/">Mastodon</a>
                 </li>
                 <li>
+                  <a href="https://matrix.to/#/@florentin:stratum0.org"
+                    >Matrix</a
+                  >
+                </li>
+                <li>
+                  <a href="https://instagram.com/frodolon">Instagram</a>
+                </li>
+                <li>
                   <a href="https://www.linkedin.com/in/florentin-schleuss/">
                     LinkedIn
                   </a>
@@ -53,12 +61,12 @@
     </section>
     <section>
       <h2 id="projects:">Projects</h2>
-      (A lot of these are unmaintained so your mileage may vary :P)
       <div v-for="project in projects" :key="project.heading">
         <project-card
           :heading="project.heading"
           :link="project.link"
           :image-path="project.imagePath"
+          :status="project.status"
         >
           <nuxt-content :document="project" />
         </project-card>

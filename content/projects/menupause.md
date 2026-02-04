@@ -1,7 +1,8 @@
 ---
-id: 0
+id: 1
 heading: Menu Pause
 link: https://github.com/macbrayne/inventory-pause-forge
+status: 🟢
 ---
 An extended version of the Minecraft "inventory-pause" mod by umollu for NeoForge and Fabric
 
