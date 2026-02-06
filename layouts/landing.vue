@@ -7,6 +7,21 @@
   </v-app>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://florentin-schleuss.de' + this.$route.path,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 .main-content {
   word-wrap: break-word;
