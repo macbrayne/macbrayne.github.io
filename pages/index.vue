@@ -74,19 +74,19 @@
 
     <section class="i8831">
       <a href="/">
-        <img
-          src="~/assets/88x31/florentin.png"
-          alt="Florentin Schleuß's website"
-        />
+        <img src="~/assets/88x31/florentin.png" alt="Florentin's 88x31" />
+      </a>
+      <a href="https://53c70r.de/">
+        <img src="~/assets/88x31/53c70r.png" alt="53c70r's 88x31" />
       </a>
       <a href="https://ncamgnrvngu.eu/"
-        ><img src="~/assets/88x31/ncamgnrvngu.png" alt="Ncam Gnrvngu's website"
+        ><img src="~/assets/88x31/ncamgnrvngu.png" alt="Ncam Gnrvngu's 88x31"
       /></a>
       <a href="https://marekkrug.de/"
-        ><img src="~/assets/88x31/murmeldin.png" alt="Marek Krug's website"
+        ><img src="~/assets/88x31/murmeldin.png" alt="Marek Krug's 88x31"
       /></a>
       <a href="https://chaos.social/@feix3349"
-        ><img src="~/assets/88x31/feix.png" alt="Feix' mastodon" />
+        ><img src="~/assets/88x31/feix.png" alt="Feix' 88x31" />
       </a>
     </section>
   </main>
