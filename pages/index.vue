@@ -88,6 +88,9 @@
       <a href="https://chaos.social/@feix3349"
         ><img src="~/assets/88x31/feix.png" alt="Feix' 88x31" />
       </a>
+      <a href="https://cve.cx/"
+        ><img src="~/assets/88x31/cve.png" alt="cve's 88x31" />
+      </a>
     </section>
   </main>
 </template>
